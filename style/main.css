@@ -1,0 +1,57 @@
+body{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-image: url("https://mybestfiles.files.wordpress.com/2013/04/fon-2.jpg");
+}
+#registration{
+	padding-top: 5%;
+	margin-top: 12%;		
+	width: 40%;
+	margin-left: 30%;
+	background-color: black;
+	padding-bottom: 5%;
+	display: block;
+}
+#authorization{
+	padding-top: 5%;
+	margin-top: 12%;		
+	width: 40%;
+	margin-left: 30%;
+	background-color: black;
+	padding-bottom: 2%;
+	display: none;
+}
+input{
+	margin-top: 3%;
+	width: 28.5%;
+	margin-left: 35%;
+	border: 2px solid white;
+	color: white;
+	background-color: black;
+	padding-left: 1%;
+}
+input:focus{
+	border-color: white;
+}
+input::placeholder {
+  color: white;
+}
+button{
+	width: 30%;
+	margin-top: 2%;
+	margin-left: 35%;
+	border: 2px solid white;
+	background-color: #2b2424;
+	color: white;
+	margin-bottom: 2%;
+}
+.wrapper{
+	background: black;
+	width: 40%;
+	color: white;
+	margin-left: 30%;
+	text-align: center;
+	margin-top: 20%;
+	display: none;
+}
